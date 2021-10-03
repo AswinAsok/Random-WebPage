@@ -97,7 +97,6 @@ main {
   background-color: #313131;
   color: white;
   padding: 5rem;
-
   display: flex;
   padding-right: 0rem;
 }
@@ -179,6 +178,55 @@ main {
   .disimg {
     height: 4rem;
   }
+
+  /* .testimonials */
+
+  .leftside {
+    width: 43vw;
+    margin-right: 10vw;
+  }
+
+  .theading {
+    font-size: 1rem;
+  }
+
+  .line {
+    width: 5rem;
+    height: 0.25rem;
+  }
+
+  .tcontent {
+    font-size: 2.2rem;
+  }
+
+  .tpara {
+    font-size: 1rem;
+  }
+
+  .person {
+    height: 75vh;
+  }
+
+  .author {
+    margin-top: 4vh;
+  }
+
+  .line2 {
+    height: 0;
+    width: 3rem;
+    height: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .leftside {
+    width: 43vw;
+    margin-right: 5vw;
+  }
+
+  .person {
+    height: 65vh;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -208,6 +256,45 @@ main {
   .disimg {
     height: 3rem;
   }
+
+  /* .testimonials */
+
+  .leftside {
+    width: 40vw;
+    margin-right: 10vw;
+  }
+
+  .theading {
+    font-size: 0.75rem;
+  }
+
+  .line {
+    width: 4rem;
+    height: 0.25rem;
+  }
+
+  .tcontent {
+    margin-top: 5vh;
+    font-size: 1.75rem;
+  }
+
+  .tpara {
+    font-size: 0.95rem;
+  }
+
+  .person {
+    height: 50vh;
+  }
+
+  .author {
+    margin-top: 4vh;
+  }
+
+  .line2 {
+    height: 0;
+    width: 2rem;
+    height: 0.2rem;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -225,5 +312,23 @@ main {
 
   .sectext {
     font-size: 1rem;
+  }
+
+  .rightside {
+    display: none;
+  }
+
+  .leftside {
+    margin: 0rem;
+    width: 100vw;
+  }
+
+  .testimonials {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  .tpara {
+    width: 90%;
   }
 }
