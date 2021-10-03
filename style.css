@@ -152,6 +152,29 @@ main {
   background-color: #ff6767;
 }
 
+.upq {
+  height: 5vh;
+}
+
+.lpq {
+  height: 5vh;
+  margin-left: 100%;
+}
+
+.name{
+  font-weight: 500;
+  color: #313131;
+}
+
+footer {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  background-color: #ff6767;
+  font-family: "Poppins";
+  color: white;
+  text-align: center;
+}
+
 @media only screen and (max-width: 1200px) {
   .heading {
     font-size: 2.5rem;
@@ -330,5 +353,9 @@ main {
 
   .tpara {
     width: 90%;
+  }
+
+  footer {
+    font-size: 1rem;
   }
 }
