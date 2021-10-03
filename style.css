@@ -20,11 +20,16 @@ nav .nav-items {
   align-items: center;
   list-style-type: none;
   color: white;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+nav .nav-item:hover {
+  color: #ff6767;
 }
 
 .company-name {
-  flex: 2;
+  flex: 3;
   margin: auto;
 
   font-size: 1.5rem;
@@ -97,6 +102,7 @@ main {
   background-color: #313131;
   color: white;
   padding: 5rem;
+  padding-bottom: 0rem;
   display: flex;
   padding-right: 0rem;
 }
@@ -161,7 +167,7 @@ main {
   margin-left: 100%;
 }
 
-.name{
+.name {
   font-weight: 500;
   color: #313131;
 }
@@ -173,6 +179,35 @@ footer {
   font-family: "Poppins";
   color: white;
   text-align: center;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #313131;
+  padding: 3rem;
+}
+
+.one {
+  margin-right: 0.5rem;
+  height: 0;
+  width: 2rem;
+  border: none;
+  height: 0.4rem;
+  background-color: #ff6767;
+  border-radius: 5px;
+}
+
+.two{
+  margin-right: 0.5rem;
+  height: 0;
+  width: 2rem;
+  border: none;
+  height: 0.4rem;
+  border-radius: 5px;
+  background-color: #CDCDCD;
 }
 
 @media only screen and (max-width: 1200px) {
