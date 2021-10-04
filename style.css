@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 
 * {
@@ -29,11 +29,10 @@ nav .nav-item:hover {
 }
 
 .company-name {
-  flex: 3;
+  flex: 5;
   margin: auto;
-
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 main {
@@ -49,30 +48,32 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 60vh;
+  height: 70vh;
   width: 60vw;
 }
 
 .heading {
-  font-weight: 500;
-  font-size: 3.5rem;
+  font-weight: 600;
+  font-size: 4.25rem;
 }
 
 .paragraph {
-  margin-top: 1.25rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   width: 75%;
+}
+
+.disimg{
+  height: 3.8rem;
 }
 
 .btn {
   border: none;
-  margin-top: 1.5rem;
   width: 25%;
   font-weight: 400;
   font-size: 1rem;
   font-weight: 700;
   color: white;
-  margin-top: 1rem;
+  margin-top: 2rem;
   border-radius: 5px;
   padding: 0.85rem 0.75rem;
   background-color: #ff6767;
@@ -126,7 +127,7 @@ main {
 }
 
 .tcontent {
-  margin-top: 10vh;
+  margin-top: 5vh;
   font-size: 3rem;
   font-family: "Playfair Display";
 }
@@ -134,7 +135,7 @@ main {
 .tpara {
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   margin-top: 5vh;
 }
 
@@ -152,7 +153,7 @@ main {
 .line2 {
   margin-right: 0.5rem;
   height: 0;
-  width: 3rem;
+  width: 2rem;
   border: none;
   height: 0.2rem;
   background-color: #ff6767;
@@ -210,6 +211,8 @@ footer {
   background-color: #CDCDCD;
 }
 
+
+
 @media only screen and (max-width: 1200px) {
   .heading {
     font-size: 2.5rem;
@@ -234,7 +237,11 @@ footer {
   }
 
   .disimg {
-    height: 4rem;
+    height: 3rem;
+  }
+
+  .nav-item{
+    display: none;
   }
 
   /* .testimonials */
@@ -274,6 +281,10 @@ footer {
     width: 3rem;
     height: 0.2rem;
   }
+
+  footer{
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -289,12 +300,12 @@ footer {
 
 @media only screen and (max-width: 900px) {
   .heading {
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
 
   .paragraph {
     font-size: 0.8rem;
-    width: 65%;
+    width: 75%;
   }
 
   .btn {
